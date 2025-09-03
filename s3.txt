@@ -1,0 +1,8 @@
+access key name:
+all-buckets-full-access-1735555799909
+
+access key id: 
+DO00VZ97LARKU2UFPPEY
+
+secret:
+u3jjhps6oN8ATmlG1Be53KXdRAb1jL2SVreHLCqbt30

@@ -1,0 +1,3 @@
+full text search commands
+
+SELECT title, content FROM posts WHERE document_with_weights @@ plainto_tsquery('radom info') OR similarity(title, 'radom, info') > 0.15 OR similarity(content, 'radom, info') > 0.15 ORDER BY ts_rank(document_with_weights, to_tsquery('data')) DESC;
